@@ -1,4 +1,3 @@
-# moodsense-privacy-policy
 ## MoodSense Privacy Policy
 
 **Last updated:** April 18, 2026
