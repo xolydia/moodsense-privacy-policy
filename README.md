@@ -48,6 +48,8 @@ If MoodSense uses third-party services such as Firebase Authentication or hostin
 
 MoodSense stores information only as long as needed to provide the app, maintain account access, or meet legal or security requirements.
 
+Mood data is stored in Firebase Realtime Database and is associated with your account. Data is retained until you delete it manually or delete your account.
+
 Reasonable security measures are used to protect information from unauthorized access, loss, misuse, or alteration. However, no method of storage or transmission is completely secure.
 
 ## User choices and controls
@@ -58,11 +60,7 @@ You can also disable optional data sources from the app settings or from Android
 
 ## Data deletion
 
-MoodSense should provide a way to request deletion of stored personal data and, where accounts are used, a way to delete your account.
-
-If account deletion requires recent sign-in or reauthentication, you may be asked to confirm your identity before the deletion is completed.
-
-Where possible, deleting an account should also remove or anonymize associated app data, unless retention is required for legal, security, or fraud-prevention reasons.
+You can delete all your mood data from Settings → Delete my data. You can permanently delete your account from Settings → Delete account. Account deletion removes your authentication record. Associated mood data stored in the database is also deleted when you request it.
 
 ## Children
 
@@ -76,5 +74,5 @@ This Privacy Policy may be updated from time to time to reflect changes in the a
 
 For privacy questions or deletion requests, contact:
 
-**Email:** lydiatpaschalidou@gmail.com  
-**Developer/organization:** MoodSense
+**Email:** lpasch02@ucy.ac.cy  
+**Developer:** Lydia Paschalidou, University of Cyprus
